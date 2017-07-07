@@ -1,19 +1,14 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
+﻿using Sitecore.Collections;
+using Sitecore.Data.Validators;
+using Sitecore.Diagnostics;
+using Sitecore.Globalization;
+using Sitecore.Pipelines.Save;
+using Sitecore.Web;
+using Sitecore.Web.UI.Sheer;
+using System;
 
 namespace Sitecore.Support.Pipelines.Save
 {
-    using Collections;
-    using Data.Validators;
-    using Diagnostics;
-    using Globalization;
-    using Sitecore.Pipelines.Save;
-    using Web;
-    using Web.UI.Sheer;
-
-
     public class Validators
     {
         public void Process(SaveArgs args)
